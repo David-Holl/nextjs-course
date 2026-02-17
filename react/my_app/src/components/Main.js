@@ -1,6 +1,6 @@
-function Main({ number = "x", content = "unkown" }) {
+function Main({ number = "x", content = "unkown" , card}) {
   return (
-    <main>
+    <main className={card ? "sub card" : "main card"}>
       <p>
         {number}. {content}
       </p>

@@ -1,0 +1,32 @@
+.header {
+    color: darkgreen;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 32px;
+    
+}
+
+.main{
+    width: 40%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub{
+    width: 40%;
+    margin-bottom: 10px;
+    border: 1px solid green;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    transition: background-color 1s;
+    transition: border-radius 1s;
+}

@@ -1,9 +1,11 @@
 function Header(props) {
   return (
     <>
-      <h1>Moin {props.name}!</h1>
+      <header className="header">Moin {props.name}!</header>
     </>
   );
 }
+
+// const h1_styling = {color: "blue", textDecoration: "underline"};
 
 export default Header;
